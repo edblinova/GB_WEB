@@ -1,0 +1,314 @@
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url(./fonts/Gilroy-Bold.woff2);
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url(./fonts/Gilroy-Medium.woff2);
+}
+
+@font-face {
+  font-family: 'Gilroy-Semibold';
+  src: url(./fonts/Gilroy-Semibold.woff2);
+}
+
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: url(./fonts/Gilroy-Semibold.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1146px;
+  margin: 0 auto;
+}
+
+.content__header {
+  padding-top: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.logo_header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.grow {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.me {
+  color: #f25822;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.navigation {
+  margin-block: 12px;
+  width: 533px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation_link {
+  font-family: 'Gilroy-SemiBold';
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+}
+
+.vector {
+  color: #000;
+}
+
+.home {
+  color: #f25822;
+}
+
+.content__main {
+  background-color: #fff;
+  padding: 83px 0 103px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.information_site {
+  width: 522px;
+}
+
+.information_site h1 {
+  font-family: 'Gilroy-Bold';
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 17px;
+}
+
+.information_site p {
+  font-family: 'Gilroy-Medium';
+  font-size: 20px;
+  line-height: 23px;
+  color: #888888;
+  margin-bottom: 37px;
+}
+
+.start_btn {
+  color: #fff;
+  font-family: 'Gilroy-Bold';
+  font-size: 15px;
+  line-height: 18px;
+  padding: 15px 36px;
+  border-radius: 50px;
+  border: none;
+  background-color: #f25822;
+  cursor: pointer;
+}
+
+.video_btn {
+  color: #aaa;
+  font-family: 'Gilroy-Bold';
+  font-size: 15px;
+  line-height: 18px;
+  padding: 15px 36px;
+  border-radius: 50px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.video_btn:hover {
+  color: #fff;
+  background-color: #f25822;
+}
+
+.image_info {
+  width: 544px;
+  height: 378px;
+}
+
+.content__logo {
+  background-color: #fff;
+  height: 243px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.advertising {
+  height: 490px;
+  display: flex;
+  align-items: center;
+  margin-inline: 413px;
+  gap: 59px;
+}
+
+.advertising_card {
+  height: 226px;
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  transition: 1s;
+}
+
+.advertising_card:hover {
+  transform: scale(1.15);
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.fon {
+  transition: 1s;
+}
+
+.advertising_card:hover .fon {
+  transform: scale(0.85);
+}
+
+.icon {
+  height: 70px;
+  width: 70px;
+  border-radius: 15px;
+  display: grid;
+  place-content: center;
+}
+
+.busines .icon {
+  background: rgba(242, 88, 34, 0.25);
+}
+
+.leads .icon {
+  background: rgba(20, 146, 17, 0.28);
+}
+
+.sales .icon {
+  background: rgba(255, 205, 29, 0.24);
+}
+
+.advertising_card h3 {
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 8px;
+}
+
+.advertising_card p {
+  color: #666;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  line-height: 23px;
+  margin-bottom: 8px;
+}
+
+.advertising_card a {
+  font-family: Gilroy-Bold;
+  font-size: 11px;
+  line-height: 17px;
+}
+
+.directions {
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 375px;
+}
+
+.title_directions {
+  height: 123px;
+  width: 682px;
+  text-align: center;
+}
+
+.directions h1 {
+  font-family: Gilroy-Bold;
+  font-size: 45px;
+  line-height: 52px;
+}
+
+.directions p {
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+  margin-top: 19px;
+}
+
+.directions_cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-top: 55px;
+}
+
+.directions_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.directions_card:hover {
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.img_directions {
+  height: 270px;
+  width: 370px;
+}
+.directions_card h3 {
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 25px;
+}
+
+.directions_card p {
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  line-height: 23px;
+  color: #666666;
+  margin: 22px 30px 39px;
+  text-align: center;
+}
+
+.directions_cards button {
+  margin-bottom: 50px;
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  color: #fff;
+  font-family: Gilroy-Bold;
+  font-size: 13px;
+  line-height: 20px;
+  border: none;
+  background-color: #f25822;
+}
+.directions_cards button:hover {
+  cursor: pointer;
+}
+.directions_cards button:active {
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
