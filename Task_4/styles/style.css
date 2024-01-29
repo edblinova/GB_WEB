@@ -1,0 +1,158 @@
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url(./fonts/Gilroy-Bold.woff2);
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url(./fonts/Gilroy-Medium.woff2);
+}
+
+@font-face {
+  font-family: 'Gilroy-Semibold';
+  src: url(./fonts/Gilroy-Semibold.woff2);
+}
+
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: url(./fonts/Gilroy-Semibold.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1146px;
+  margin: 0 auto;
+}
+
+.content__header {
+  padding-top: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.logo_header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.grow {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.me {
+  color: #f25822;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.navigation {
+  margin-block: 12px;
+  width: 533px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation_link {
+  font-family: 'Gilroy-SemiBold';
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+}
+
+.vector {
+  color: #000;
+}
+
+.home {
+  color: #f25822;
+}
+
+.content__main {
+  background-color: #fff;
+  padding: 83px 0 103px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.information_site {
+  width: 522px;
+}
+
+.information_site h1 {
+  font-family: 'Gilroy-Bold';
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 17px;
+}
+
+.information_site p {
+  font-family: 'Gilroy-Medium';
+  font-size: 20px;
+  line-height: 23px;
+  color: #888888;
+  margin-bottom: 37px;
+}
+
+.start_btn {
+  color: #fff;
+  font-family: 'Gilroy-Bold';
+  font-size: 15px;
+  line-height: 18px;
+  padding: 15px 36px;
+  border-radius: 50px;
+  border: none;
+  background-color: #f25822;
+  cursor: pointer;
+}
+
+.video_btn {
+  color: #aaa;
+  font-family: 'Gilroy-Bold';
+  font-size: 15px;
+  line-height: 18px;
+  padding: 15px 36px;
+  border-radius: 50px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.video_btn:hover {
+  color: #fff;
+  background-color: #f25822;
+}
+
+.image_info {
+  width: 544px;
+  height: 378px;
+}
+
+.content__logo {
+  background-color: #fff;
+  height: 243px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
