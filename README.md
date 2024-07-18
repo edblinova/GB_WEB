@@ -1,2 +1,2 @@
 # GB_WEB
-GeekBrains. Основы Javascript
+GeekBrains. Веб-вёрстка HTML/CSS (семинары)
